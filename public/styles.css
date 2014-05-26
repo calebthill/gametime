@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+.index_body {
+  background-image:url("gametime.png");
+}
+
+#leaderlink {
+  font-color: white;
+  text-align: center;
+  font-family: serif;
+}
+
+.h2 {
+text-align: center;
+}
+
+body {
+   background-image:url("gametime.png");
+}
+
+.title {
+  text-align: center;
+}
+
+h3, ol {
+  color: lightgrey;
+}
+
+.each_game {
+  text-align: center;
+  color: black;
+}
+
+.game_heading {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

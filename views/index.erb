@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slacker News</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body class="index_body">
+      <h1><a href="/leaderboard">LEADER BOARD</a></h1>
+
+
+        <h2 class="each_game">Games: </h2>
+
+          <% @teams.each do |team| %>
+          <h3 class="each_game">
+          Home Team: <%= team[:home_team] %>
+          <br>
+          Away Team: <%= team[:away_team] %>
+          <br>
+          Home Score: <%= team[:home_score] %>
+          <br>
+          Away Score: <%= team[:away_score] %>
+          </h3>
+        <% end %>
+    </body>
+</html>
